@@ -12,7 +12,7 @@ programa {
 		
 		soma = num1 + num2
 		
-		se (soma <= 10){
+		se (soma < 10){
 		    escreva(soma)
 		} senao {
 		    escreva("Volte sempre!")
