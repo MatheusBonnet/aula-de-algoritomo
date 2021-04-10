@@ -6,10 +6,8 @@ programa {
 	    escreva("Digite um numero: ")
 	    leia(num1)
 	    
-	    se (num1 <= 20){
+	    se (num1 < 20){
 	        escreva(num1)
-	    } senao{
-	        
-	    }
+	    } 
 	}
 }
