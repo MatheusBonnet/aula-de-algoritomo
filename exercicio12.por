@@ -44,7 +44,7 @@ programa {
             maior = numero4
         }
 	
-	escreva("Maior: " + maior)
-        escreva("Menor: " + menor)
+	escreva("\nMaior: " + maior)
+        escreva("\nMenor: " + menor)
 	}
 }
