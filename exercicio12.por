@@ -21,26 +21,17 @@ programa {
         }
         se(numero1 <= numero2 e numero1 <= numero3 e numero1 <= numero4){
             menor = numero1
-        }
-        //numero2
-        senao se(numero2 <= numero1 e numero2 <= numero3 e numero2 <= numero4){
+        }senao se(numero2 <= numero1 e numero2 <= numero3 e numero2 <= numero4){
             menor = numero2
-        } 
-        senao se(numero2 >= numero1 e numero2 >= numero3 e numero2 >= numero4){
+        }senao se(numero2 >= numero1 e numero2 >= numero3 e numero2 >= numero4){
             maior = numero2
-        }
-        //numero3
-        senao se(numero3 >= numero1 e numero3 >= numero2 e numero3 >= numero4){
+        }senao se(numero3 >= numero1 e numero3 >= numero2 e numero3 >= numero4){
             maior = numero3
-        }
-        senao se(numero3 <= numero1 e numero3 <= numero2 e numero3 <= numero4){
+        }senao se(numero3 <= numero1 e numero3 <= numero2 e numero3 <= numero4){
             menor = numero3
-        }
-        //numero4
-        senao se(numero4 < numero1 e numero4 < numero2 e numero4 < numero3){
+        }senao se(numero4 < numero1 e numero4 < numero2 e numero4 < numero3){
             menor = numero4 
-        }
-        senao {
+        }senao {
             maior = numero4
         }
 	
