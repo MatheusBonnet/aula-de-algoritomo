@@ -1,2 +1,2 @@
 # aula-de-algoritomo
-exercicio em portugol 
+Exercicio em portugol
